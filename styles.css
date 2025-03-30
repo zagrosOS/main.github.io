@@ -10,7 +10,7 @@ body {
 /* Navigation Links */
 .nav-link {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 22px;
     color: #0066CC;
     font-weight: bold;
     margin: 10px 0;
@@ -23,7 +23,7 @@ body {
 
 /* Table Layout */
 .main-table {
-    border: 2px solid #000000;
+    border: 3px solid #000000;
     border-collapse: collapse;
 }
 
@@ -32,11 +32,12 @@ h1 {
     text-align: center;
     color: #FF0000;
     font-family: "Courier New", monospace;
+    font-size: 56px;
 }
 
 /* Body Content */
 h2 {
-    font-size: 24px;
+    font-size: 40px;
     color: #0066CC;
 }
 
@@ -45,9 +46,9 @@ h2 {
     display: inline-block;
     background-color: #FF0000;
     color: white;
-    padding: 12px 20px;
+    padding: 12px 25px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 22px;
     border: 2px solid #FF0000;
     font-weight: bold;
 }
@@ -62,5 +63,6 @@ footer {
     background-color: #0066CC;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
+    font-size: 20px;
 }
