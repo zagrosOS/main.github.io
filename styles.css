@@ -7,14 +7,13 @@ body {
     padding: 0;
     min-height: 100vh;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Container */
 .container {
-    flex: 1;
     max-width: 600px;
-    margin: auto;
     background: white;
     padding: 30px;
     border-radius: 10px;
@@ -26,27 +25,24 @@ h1 {
     color: #333;
 }
 
-/* Sticky Download Button */
-.footer {
-    width: 100%;
-    position: sticky;
-    bottom: 0;
-    background-color: white;
-    padding: 20px;
-    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.1);
+/* Buttons */
+.links {
+    margin-top: 20px;
 }
 
-.download-btn {
+.btn {
+    display: inline-block;
     background-color: #007bff;
     color: white;
-    padding: 15px 25px;
+    padding: 10px 20px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     border-radius: 5px;
     transition: 0.3s;
+    margin: 5px;
 }
 
-.download-btn:hover {
+.btn:hover {
     background-color: #0056b3;
 }
