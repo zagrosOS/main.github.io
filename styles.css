@@ -1,131 +1,66 @@
 /* General Page Styling */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
+    background-color: #FFFFFF;
+    font-family: "Arial", sans-serif;
+    color: black;
     margin: 0;
     padding: 0;
 }
 
-/* Header */
-header {
-    background-color: #007bff;
-    color: white;
-    text-align: center;
-    padding: 30px;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 36px;
-}
-
-/* Navigation Bar */
-nav {
-    background-color: #0056b3;
-    padding: 10px;
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: white;
+/* Navigation Links */
+.nav-link {
     text-decoration: none;
     font-size: 18px;
+    color: #0066CC;
+    font-weight: bold;
+    margin: 10px 0;
+    display: block;
 }
 
-nav ul li a:hover {
-    text-decoration: underline;
+.nav-link:hover {
+    color: #FF0000;
 }
 
-/* Main Content */
-main {
-    max-width: 800px;
-    margin: 20px auto;
-    background: white;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-/* Sections */
-section {
-    margin-bottom: 40px;
-}
-
-h2 {
-    color: #333;
-    font-size: 28px;
-}
-
-/* Features List */
-.features ul {
-    list-style: none;
-    padding: 0;
-}
-
-.features ul li {
-    background: #e9ecef;
-    margin: 5px 0;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-/* Roadmap Table */
-table {
-    width: 100%;
+/* Table Layout */
+.main-table {
+    border: 2px solid #000000;
     border-collapse: collapse;
-    margin-top: 10px;
 }
 
-table, th, td {
-    border: 1px solid #ddd;
-}
-
-th, td {
-    padding: 10px;
-    text-align: left;
-}
-
-th {
-    background-color: #007bff;
-    color: white;
-}
-
-/* Call to Action */
-.cta {
+/* Header Section */
+h1 {
     text-align: center;
+    color: #FF0000;
+    font-family: "Courier New", monospace;
 }
 
+/* Body Content */
+h2 {
+    font-size: 24px;
+    color: #0066CC;
+}
+
+/* Button Styling */
 .btn {
     display: inline-block;
-    background-color: #007bff;
+    background-color: #FF0000;
     color: white;
-    padding: 10px 20px;
+    padding: 12px 20px;
     text-decoration: none;
     font-size: 18px;
+    border: 2px solid #FF0000;
     font-weight: bold;
-    border-radius: 5px;
-    transition: 0.3s;
 }
 
 .btn:hover {
-    background-color: #0056b3;
+    background-color: #0000FF;
+    border-color: #0000FF;
 }
 
 /* Footer */
 footer {
-    background-color: #333;
+    background-color: #0066CC;
     color: white;
     text-align: center;
-    padding: 15px;
-    margin-top: 20px;
+    padding: 10px;
 }
