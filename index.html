@@ -4,10 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zagros OS Assembly</title>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9970902087742356"crossorigin="anonymous"></script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9970902087742356"crossorigin="anonymous"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9970902087742356" crossorigin="anonymous"></script>
     
-</head>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -16,19 +14,18 @@
             margin: 0;
             padding: 0;
             line-height: 1.6;
+            text-align: center;
         }
         header {
             background-color: #2C3E50;
             color: white;
             padding: 20px;
-            text-align: center;
         }
         h1 {
             margin: 0;
             font-size: 36px;
         }
         nav {
-            text-align: center;
             background-color: #34495E;
             padding: 10px;
         }
@@ -44,9 +41,37 @@
         .content {
             padding: 20px;
         }
-        .video-container {
-            text-align: center;
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: auto;
             margin: 20px 0;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .button {
+            color: rgba(255, 255, 255, 0.9);
+            padding: 12px 20px;
+            display: inline-block;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            background: #3498db;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .button:hover {
+            background: #2980b9;
+            box-shadow: 0 6px rgba(0, 0, 0, 0.2);
+            transform: translateY(-3px);
+        }
+        .button:active {
+            transform: translateY(1px);
+            box-shadow: none;
         }
         footer {
             background-color: #2C3E50;
@@ -57,57 +82,19 @@
             width: 100%;
             bottom: 0;
         }
-
-        /* New Button Style from Uiverse.io by cybrejon */
-        a {
-            color: rgba(255, 255, 255, 0.692);
-            padding: 10px 15px;
-            display: inline-block; /* Changed from flex to inline-block */
-            justify-content: center; /* Center align */
-            align-items: center;
-            text-shadow: 0 0 20px rgba(255, 255, 255, 0.397);
-            background: rgba(255, 255, 255, 0.068);
-            font-size: 0.9rem;
-            font-weight: 600;
-            border-radius: 5px;
-            margin: 20px 0;
-            transition: 0.2s;
-            border: 1px solid transparent;
-        }
-
-        a:hover {
-            border-color: rgba(255, 255, 255, 0.623);
-            background: linear-gradient(
-                to bottom,
-                rgba(255, 255, 255, 0.144),
-                rgba(255, 255, 255, 0.247),
-                rgba(255, 255, 255, 0.39)
-            );
-            box-shadow: 0 6px rgba(255, 255, 255, 0.623);
-            transform: translateY(-6px);
-        }
-
-        a:active {
-            transform: translateY(2px);
-            box-shadow: none;
-        }
-
-        .image-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 300px; /* Optional */
-        }
     </style>
-
 </head>
-
-    <body>
-    <h1>Welcome to Zagros OS</h1>
+<body>
+    <header>
+        <h1>Welcome to Zagros OS</h1>
+    </header>
     <hr>
-    <img src="img/img.png" alt="zagros os" class="image-container" >
-    <!-- Styled Link with New Button Style -->
-    <a href="https://your-download-link.com" target="_blank">downlaod zagros OS</a>
-
-    </body>
+    <div class="image-container">
+        <img src="img/img.png" alt="Zagros OS">
+    </div>
+    <a href="https://your-download-link.com" target="_blank" class="button">Download Zagros OS</a>
+    <footer>
+        &copy; 2025 Zagros OS. All rights reserved.
+    </footer>
+</body>
 </html>
