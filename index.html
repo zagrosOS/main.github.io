@@ -4,16 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zagros OS Assembly</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to btm.css -->
+
+    <!-- Embed CSS inside the HTML -->
+    <style>
+   /* From Uiverse.io by cybrejon */ 
+button {
+    color: rgba(255, 255, 255, 0.692);
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.397);
+    background: rgba(255, 255, 255, 0.068);
+    overflow: hidden;
+    font-size: 0.9rem;
+    font-weight: 600;
+    gap: 8px;
+    border-radius: 5px;
+    margin: 0 5px;
+    transition: 0.2s;
+    border: 1px solid transparent;
+  }
+ 
+  button:hover {
+    border-color: rgba(255, 255, 255, 0.623);
+    background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.144),
+      rgba(255, 255, 255, 0.247),
+      rgba(255, 255, 255, 0.39)
+    );
+    box-shadow: 0 6px rgba(255, 255, 255, 0.623);
+    transform: translateY(-6px);
+  }
+  
+  button:active {
+    transform: translateY(2px);
+    box-shadow: none;
+  }
+    </style>
+
 </head>
 
 <body>
     <h1>Welcome to Zagros OS</h1>
     <hr>
 
-<button>ok</button>
-
-    <!-- Styled button link -->
-    <a href="#"><button>ok</button>kurd</a>
+    <!-- Button link styled with embedded CSS -->
+    <a href="https://example.com" target="_blank" class="button">Click Me</a>
 </body>
 </html>
